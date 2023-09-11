@@ -1,0 +1,91 @@
+body {
+  background-image: url(images/hero-desktop.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100vh;
+  font-family: 'Josefin Sans', sans-serif;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.were {
+  font-weight: 300;
+  color: #cb999c;
+  font-size: 80px;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+}
+.comingsoon {
+  font-weight: 600;
+  font-size: 80px;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+.divtekst {
+  margin: auto;
+  width: 410px;
+  text-align: left;
+  line-height: 80px;
+}
+.malitekst {
+  font-weight: 300;
+  font-size: 16px;
+  color: #cb999c;
+  line-height: 25px;
+  text-align: left;
+}
+.velikidiv {
+  width: 65%;
+  margin-top: 150px;
+  margin-left: 200px;
+  position: relative;
+}
+input {
+  height: 40px;
+  width: 410px;
+  border-radius: 25px;
+  position: absolute;
+  left: 360px;
+  font-weight: 300;
+  border: solid 1px #cb999c;
+  color: #cb999c;
+  padding-left: 10px;
+}
+input:focus {
+  border: solid 1px #cb999c;
+  outline: none;
+}
+.logo {
+  width: 45%;
+  padding-top: 130px;
+  margin-left: 570px;
+}
+input::placeholder {
+  color: #cb999c;
+  padding-left: 20px;
+}
+button {
+  height: 45px;
+  width: 90px;
+  border-radius: 25px;
+  position: absolute;
+  background: linear-gradient(
+    135deg,
+    rgba(248, 191, 191, 1) 0%,
+    rgba(238, 140, 140, 1) 35%
+  );
+  margin-left: 700px;
+  border: solid 1px #cb999c;
+  filter: drop-shadow(2px 20px 15px #a9a3a3);
+}
+.input {
+  margin-top: 30px;
+}
+.pozadinadiv {
+  background-image: url(images/bg-pattern-desktop.svg);
+  background-position: center;
+  width: 92vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
